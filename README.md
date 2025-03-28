@@ -46,25 +46,63 @@ Azure has the OATH token registered on the user account. The software OATH token
 <img src="https://imgur.com/Pcl9rHt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Next, a Conditional Access Policy will be created. A Conditional Access Policy in Azure is a set of rules that control access to resources based on factors like user identity, location, and device compliance. It helps enforce security requirements such as multi-factor authentication (MFA) or restrict access from non-compliant devices.<br />
+<br />
+In the Azure portal, go to Microsoft Entra ID
+<br />
+<br />
+<img src="https://imgur.com/AcWysRM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Manage
+<br />
+<br />
+<img src="https://imgur.com/iy5X7Kw.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Security
+<img src="https://imgur.com/0R1iYr7.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Protect > Conditional Access.
+<br />
+<br />
+<img src="https://imgur.com/U42L4ZA.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Click “Create new policy”
+<img src="https://imgur.com/NObJEsj.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
+#### Create a New Policy  
+- Click **New policy** and name it **Require MFA for All Users**.  
 
+#### Assignments  
+- **Users**: Include all users or select specific groups.  
+- **Cloud apps**: Choose all cloud apps or select specific applications.  
 
+#### Conditions  
+- **Sign-in Risk**: Set to medium and high.  
+- **Locations**: Exclude trusted IPs (e.g., corporate network).  
+- **Device Platform**: Target Windows, macOS, iOS, and Android.  
 
+#### Access Controls  
+- Select **Grant > Require multi-factor authentication**.  
 
+#### Finalize Policy  
+- Set enable policy to on, then click create.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://imgur.com/X3WdVsz.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+To verify the policy's effectiveness, a different user attempted to access Azure and was prompted for MFA, preventing access without verification. This confirms the policy was applied correctly.
+<br />
+<br />
+<img src="https://imgur.com/cqTsOHU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://imgur.com/AeF9ZHq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 
