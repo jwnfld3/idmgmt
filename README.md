@@ -93,7 +93,7 @@ Click “Create new policy”
 #### Finalize Policy  
 - Set enable policy to on, then click create.  
 
-<img src="https://imgur.com/X3WdVsz.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/X3WdVsz.png" height="20%" width="20%" alt>
 <br />
 <br />
 To verify the policy's effectiveness, a different user attempted to access Azure and was prompted for MFA, preventing access without verification. This confirms the policy was applied correctly.
@@ -103,6 +103,14 @@ To verify the policy's effectiveness, a different user attempted to access Azure
 <br />
 <br />
 <img src="https://imgur.com/AeF9ZHq.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-
-
+<br />
+<br />
+Checked the Conditional Access Insights and Reporting in Azure to confirm the policy was applied correctly. This report shows sign-in attempts, policy enforcement, affected users, and authentication failures. Reviewing it ensures MFA is working as intended and helps identify any misconfigurations or user issues.
+<br />
+<br />
+<img src="https://imgur.com/zxoqLry.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<h2>Conclusion</h2>
+This lab demonstrates how to secure Azure AD identities by implementing MFA and Conditional Access policies. These controls help mitigate security risks by enforcing adaptive authentication, restricting unauthorized access, and improving overall identity protection in an organization.
 
