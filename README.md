@@ -11,6 +11,7 @@ Using a test user in this scenario ***FIRST*** ensures that the Multi-Factor Aut
 
 - <b>Microsoft Azure</b>
 - <b>Windows 11</b>
+- <b>Hyper-V</b>
 
 <h2>Policy Creation</h2>
 Navigate to Microsoft Entra ID > Users, select a test user, and click Authentication methods.
