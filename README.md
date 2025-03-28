@@ -5,7 +5,6 @@ This lab focuses on enhancing Azure identity security by implementing Multi-Fact
 
 <h2>Environments Used </h2>
 
-- <b>Hyper-V</b>
 - <b>Microsoft Azure</b>
 - <b>Windows 11</b>
 
