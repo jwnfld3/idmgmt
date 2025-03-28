@@ -2,7 +2,7 @@
 This lab focuses on enhancing Azure identity security by implementing Multi-Factor Authentication (MFA) and Conditional Access policies in Azure Active Directory (Azure AD). By the end of this lab, strong authentication methods will be enforced, access will be restricted based on risk conditions, and sign-in activity will be monitored to improve security posture.<br/>
 
 <h2>Scenario</h2>
-TechSolutions Inc. is a rapidly growing technology firm that provides cloud-based services to clients across various industries. As the company expands, the need to secure sensitive data, such as intellectual property and client contracts, has become a top priority. The company has recently moved to the cloud, using Microsoft 365, Azure AD, and other cloud-based applications for employee productivity and collaboration.<br/>
+TechSolutions Inc. is a fast-growing technology company offering cloud-based services to clients across diverse industries. As the company expands, securing sensitive data, such as intellectual property and client contracts, has become a critical priority. Recently, the company migrated to the cloud, adopting Microsoft 365, Azure AD, and other cloud-based applications to enhance employee productivity and collaboration. To protect sensitive information from unauthorized access, Azure AD's Conditional Access policies and Multi-Factor Authentication (MFA) will be utilized to ensure that only authorized users can access this data.<br/>
 <br/>
 
 Using a test user in this scenario ***FIRST*** ensures that the Multi-Factor Authentication (MFA) setup operates correctly, avoiding any disruptions to real users or impact on production environments before it is rolled out to the entire user base.<br/>
