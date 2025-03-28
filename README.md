@@ -16,13 +16,13 @@ Using a test user in this scenario ***FIRST*** ensures that the Multi-Factor Aut
 Navigate to Microsoft Entra ID > Users, select a test user, and click Authentication methods.
 <br />
 <br />
-<img src="https://imgur.com/sdwzeAg.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/sdwzeAg.png" height="20%" width="20%" alt>
 <br />
 <br />
 Enable MFA and configure a verification method. Users will be prompted to set up MFA the next time they log in.
 <br />
 <br />
-<img src="https://imgur.com/E4DmqvX.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/E4DmqvX.png" height="60%" width="60%" alt>
 <br />
 <br />
 <img src="https://imgur.com/sSrF0HR.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
