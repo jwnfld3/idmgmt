@@ -1,5 +1,5 @@
-# Secure Entra Identity Management with Conditional Access & MFA
-This lab focuses on enhancing Entra identity security by implementing Multi-Factor Authentication (MFA) and Conditional Access policies in Entra ID. By the end of this lab, strong authentication methods will be enforced, access will be restricted based on risk conditions, and sign-in activity will be monitored to improve security posture.<br/>
+# Azure Identity Management with Conditional Access & MFA
+This lab focuses on enhancing Azure identity security by implementing Multi-Factor Authentication (MFA) and Conditional Access policies in Azure Active Directory (Azure AD). By the end of this lab, strong authentication methods will be enforced, access will be restricted based on risk conditions, and sign-in activity will be monitored to improve security posture.<br/>
 
 <h2>Environments Used </h2>
 
@@ -8,8 +8,7 @@ This lab focuses on enhancing Entra identity security by implementing Multi-Fact
 - <b>Hyper-V</b>
 
 <h2>Policy Creation</h2>
-Navigate to Microsoft Entra ID > Users, select a test user, and click Authentication methods.
-<br />
+Navigate to Azure Active Directory > Users, select a test user, and click Authentication methods.<br />
 <br />
 <img src="https://imgur.com/sdwzeAg.png" height="20%" width="20%" alt>
 <br />
