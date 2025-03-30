@@ -73,7 +73,7 @@ Enforcing MFA and Conditional Access is critical for:
 
 ### 4. Define Access Conditions:
 - Navigate to **Conditions** → **Locations**.
-- Configure the policy to **Include Any network or location"**. Policies with "Any network or location" ensure users meet security conditions (e.g., MFA, device compliance) regardless of where they are.
+- Configure the policy to **"Include Any network or location"**. Policies with "Any network or location" ensure users meet security conditions (e.g., MFA, device compliance) regardless of where they are.
 
 ### 5. Enforce MFA:
 - Under **Grant Controls**, select **Require Multi-Factor Authentication (MFA)**.
@@ -86,10 +86,8 @@ Enforcing MFA and Conditional Access is critical for:
   ![image](https://github.com/user-attachments/assets/f81e662d-d9c8-4ce8-89f9-83146f9b5696)
 ---
 
-## Expected Outcome
-Once the policy is enabled, all Global Administrators will be required to complete MFA when signing in. Additionally, any attempts to sign in from untrusted countries will be blocked, enhancing the organization's security posture.
-
-This lab provides a foundational approach to implementing identity protection in Microsoft Entra ID, ensuring privileged accounts are secured against unauthorized access.
+## Summary: Enforcing Authentication from Any Location ##
+This lab ensures users must meet security conditions such as Multi-Factor Authentication (MFA) and device compliance no matter where they connect from. By configuring the policy to "Include Any network or location," authentication requirements apply universally whether users are on a corporate network, public Wi-Fi, or a remote connection. This enhances security by preventing location-based bypasses and ensuring consistent enforcement of access policies across all environments.
 
 ---
 
@@ -99,20 +97,16 @@ This lab provides a foundational approach to implementing identity protection in
 - Sign in with a **Global Administrator** test account.
 - Confirm that an MFA prompt appears before access is granted.
 
-### 2. Check Policy Application:
-- In the Microsoft Entra Admin Center, navigate to **Conditional Access** → **Policies**.
-- Ensure that the "Require MFA for Admins" policy is **enabled and applied**.
-
-### 3. Test Access Block from Untrusted Locations:
-- Simulate a sign-in attempt from a restricted location using a VPN.
-- Confirm that access is blocked based on location conditions.
-
-### 4. Review Sign-In Logs:
+### 2. Review Sign-In Logs:
 - Go to **Microsoft Entra ID** → **Sign-in Logs**.
 - Verify that policy enforcement details, such as MFA requirements and blocked sign-ins, are correctly logged.
 
-### 5. Adjust and Troubleshoot if Needed:
+### 3. Adjust and Troubleshoot if Needed:
 - If unexpected behavior occurs, review policy settings and adjust conditions accordingly.
 - Ensure that MFA settings in **Identity Protection** align with Conditional Access policies.
+
+## Summary: Enforcing Authentication from Any Location
+
+This lab ensures users must meet security conditions such as Multi-Factor Authentication (MFA) and device compliance no matter where they connect from. By configuring the policy to "Include Any network or location," authentication requirements apply universally whether users are on a corporate network, public Wi-Fi, or a remote connection. This enhances security by preventing location-based bypasses and ensuring consistent enforcement of access policies across all environments.
 
 By following these validation steps, the effectiveness of the Conditional Access policy can be confirmed, ensuring that privileged accounts remain secure.
