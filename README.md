@@ -3,8 +3,8 @@
 ## Summary
 This lab demonstrates how to enforce security policies in Microsoft Entra ID by implementing Conditional Access and Multi-Factor Authentication (MFA). The objective is to strengthen authentication security by blocking risky sign-ins and requiring MFA for high-privilege accounts such as Global Administrators. By configuring Conditional Access policies, organizations can minimize unauthorized access and enhance security compliance.
 
-**Click on the images below to view the full-size version**
 ---
+**Click on the images below to view the full-size version**
 
 ## Lab Requirements
 Before starting this lab, ensure the following requirements are met:
