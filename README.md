@@ -4,6 +4,14 @@
 This lab demonstrates how to enforce security policies in Microsoft Entra ID by implementing Conditional Access and Multi-Factor Authentication (MFA) within the framework of a Zero Trust security model. The objective is to strengthen authentication security by blocking risky sign-ins, requiring MFA for high-privilege accounts such as Global Administrators, and ensuring that only verified users and devices gain access to critical resources. By configuring Conditional Access policies, organizations can minimize unauthorized access, ensure continuous verification, and enhance overall security compliance in line with Zero Trust principles.
 
 ---
+## Definition: Implementing Conditional Access & Multi-Factor Authentication (MFA)
+***Conditional Access*** is a security feature in Microsoft Entra ID (formerly Azure AD) that enforces access policies based on specific conditions such as user identity, device compliance, location, and risk level. It helps organizations control who can access resources and under what circumstances.
+
+***Multi-Factor Authentication (MFA)*** is an authentication method that requires users to verify their identity using multiple factors, typically something they know (password) and something they have (authentication app, phone, or security key). MFA significantly reduces the risk of unauthorized access, even if passwords are compromised.
+
+By implementing Conditional Access and MFA together, organizations strengthen security by ensuring that access to critical resources is granted only under secure and verified conditions.
+
+---
 **Click on the images below to view the full-size version**
 
 ## Lab Requirements
