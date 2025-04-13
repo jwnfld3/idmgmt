@@ -60,6 +60,31 @@ Enforcing MFA and Conditional Access is critical for:
 
 ## Steps to Implement Conditional Access & MFA
 
+**Conditional Access** is a policy-based access control feature in Microsoft Entra ID (formerly Azure Active Directory) that enforces security requirements based on specific conditions. It evaluates signals such as user identity, device status, location, and application being accessed to determine whether to allow or block access—or require additional actions like Multi-Factor Authentication (MFA).
+
+---
+
+### Key Capabilities:
+- **Granular Control**: Apply policies based on user groups, roles, applications, device compliance, IP locations, and risk levels.
+- **Adaptive Access**: Enforce additional security requirements (like MFA or device compliance) only when certain conditions are met.
+- **Real-Time Decisions**: Evaluate access requests in real-time to ensure compliance and reduce risk.
+
+---
+
+### Why It Matters:
+- Reduces the attack surface by requiring stronger controls only when necessary.
+- Supports zero-trust security by verifying user identity, device health, and session context.
+- Helps organizations meet compliance standards and minimize the risk of unauthorized access.
+
+---
+
+### Common Use Cases:
+- Require MFA for users signing in from outside trusted locations.
+- Block access to sensitive applications from unmanaged or non-compliant devices.
+- Allow access only if the user's risk level is low (based on Microsoft Entra ID Identity Protection).
+
+---
+
 ### 1. Access Conditional Access Settings:
 - Open a web browser and navigate to the [Microsoft Entra Admin Center](https://entra.microsoft.com).
 - Go to **Security** → **Conditional Access**. If it cannot be located use the search bar on the home screen.</b>
